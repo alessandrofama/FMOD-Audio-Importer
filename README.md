@@ -1,5 +1,7 @@
 FMOD Audio Importer
 
+<img src="https://imgur.com/XqTjhEU.gif"></img>
+
 Automatically import audio files and create FMOD Events with Single/Multi/Scatterer Instruments depending on file name suffixes. Useful when starting a new project and importing a lot of audio files.
 
 Features:
