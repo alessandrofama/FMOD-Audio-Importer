@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMODAudioImporter", "FMODAudioImporter.csproj", "{1497674E-F220-4BF1-90D3-C0C89DA60FD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1497674E-F220-4BF1-90D3-C0C89DA60FD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1497674E-F220-4BF1-90D3-C0C89DA60FD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1497674E-F220-4BF1-90D3-C0C89DA60FD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1497674E-F220-4BF1-90D3-C0C89DA60FD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		BuildVersion_ConfigurationName = Release
+		BuildVersion_StartDate = 2019/11/6
+		BuildVersion_UpdateFileVersion = True
+		BuildVersion_UpdateAssemblyVersion = True
+		BuildVersion_BuildVersioningStyle = None.None.Increment.TimeStamp
+		SolutionGuid = {7A699B38-835A-40C3-8DA1-C1E4B7BE1111}
+	EndGlobalSection
+EndGlobal
