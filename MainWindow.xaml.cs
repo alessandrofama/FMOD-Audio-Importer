@@ -316,7 +316,7 @@ namespace FMODAudioImporter
                 foreach (string line in lines)
                 {
                     tc.WriteLine(line);
-                    Extensions.Sleep(0.5f);
+                    Extensions.Sleep(0.8f);
                 }
                 lines.Clear();
             }
