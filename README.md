@@ -18,9 +18,11 @@ Examples of file names structures:
 - <b>Single Instrument with Spatializer</b>: filename_z.wav will generate an Event containing a Single Instrument and a Spatializer effect on the Master Track.
 - <b>Multi Instrument</b>: filename_m_1.wav, filename_m_2.wav will generate an Event named filename with a Multi Instrument containing both files.
 - <b>Multi Instrument with Spatializer</b>: filename_z_m_1.wav, filename_z_m_2.wav will generate an Event named filename with a Multi Instrument containing both files and a Spatializer Effect on the Master Track.
-- <b>Scatter Instrument</b>: filename_c_1.wav, filename_c_2.wav will generate an Event named filename with a Scatterer Instrument containing both files.
-- <b>Scatter Instrument with Spatializer</b>: filename_z_c_1.wav, filename_z_c_2.wav will generate an Event named filename with a Scatterer Instrument containing both files and a Spatializer Effect on the Master Track.
+- <b>Scatterer Instrument</b>: filename_c_1.wav, filename_c_2.wav will generate an Event named filename with a Scatterer Instrument containing both files.
+- <b>Scatterer Instrument with Spatializer</b>: filename_z_c_1.wav, filename_z_c_2.wav will generate an Event named filename with a Scatterer Instrument containing both files and a Spatializer Effect on the Master Track.
 
 You can change the suffix settings in the Settings tab:
 
 <img src="https://imgur.com/muPWmgJ.png"></img>
+
+There might be some small bugs, in general the code is also a bit crude, this was created as a personal tool. Let me know if you find any errors, will try to fix that.
