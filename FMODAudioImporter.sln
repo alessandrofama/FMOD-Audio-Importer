@@ -20,6 +20,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+		BuildVersion_AssemblyInfoFilename = Properties\AssemblyInfo.cs
 		BuildVersion_ConfigurationName = Release
 		BuildVersion_StartDate = 2019/11/6
 		BuildVersion_UpdateFileVersion = True
