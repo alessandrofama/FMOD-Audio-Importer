@@ -61,17 +61,21 @@ namespace FMODAudioImporter
 
         public void ScanEvents(List<string> directories)
         {
+            List<string> filePaths = new List<string>();
+
             foreach (var directory in directories)
             {
-                var filePaths = Directory.GetFiles(directory, "*.*",
+                var paths = Directory.GetFiles(directory, "*.*",
                                   SearchOption.TopDirectoryOnly).Where(s => s.ToLower().EndsWith(".wav")
                                   || s.ToLower().EndsWith(".mp3")
                                   || s.ToLower().EndsWith(".aiff")
                                   || s.ToLower().EndsWith(".ogg")
                                   || s.ToLower().EndsWith(".flac"));
 
-                CreateEvents(filePaths);
+                filePaths.AddRange(paths);
             }
+
+            CreateEvents(filePaths);
         }
 
         public void CreateEvents(IEnumerable<string> filePaths)
@@ -316,7 +320,7 @@ namespace FMODAudioImporter
                 foreach (string line in lines)
                 {
                     tc.WriteLine(line);
-                    Extensions.Sleep(0.8f);
+                    Extensions.Sleep(0.7f);
                 }
                 lines.Clear();
             }
