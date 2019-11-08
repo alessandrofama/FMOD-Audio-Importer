@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:FMODAudioImporter"
         mc:Ignorable="d"
         Title="MainWindow" Height="250" Width="330"
-        Icon="D:\Source\Repos\FMODAudioImporter\Properties\fmod_audio_importer_icon.ico"
+        Icon="Resources\fmod_audio_importer_icon.ico"
             ResizeMode="CanMinimize">
     <Grid>
         <TabControl>
